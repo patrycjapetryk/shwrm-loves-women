@@ -1,13 +1,413 @@
 <!doctype html>
-<html lang="en">
+<html lang="pl">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/dot.svg" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,700&subset=latin,latin-ext"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:500,500i,600,600i,700,700i&subset=latin-ext"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=EB+Garamond:500,500i&subset=latin-ext"
+      rel="stylesheet"
+    />
+    <title>Showroom loves women</title>
   </head>
   <body>
-    <div id="app"></div>
+    <main class="main">
+      <header class="main-header main-header--js">
+        <div class="main-header__container main-header__container--js">
+          <img
+            class="main-header__image main-header__image--js"
+            src="./images/shwrm.png"
+            alt="header"
+          />
+        </div>
+      </header>
+
+      <section class="photo-with-links photo-with-links--top">
+        <img
+          class="photo-with-links__image photo-with-links__image--top"
+          src="./images/1a.jpg"
+          alt="top image"
+        />
+
+        <a
+          class="photo-with-links__link"
+          href="https://www.showroom.pl/p/135193,patrizia-aryton-marynarka-w-kwiatowy-desen"
+          style="left: 17%; top: 45%; width: 15%; height: 12%"
+        >
+          <h4 class="photo-with-links__title" style="left: -33%; top: 5%; width: 20%">
+            marynarka
+            <span class="photo-with-links__span">PATRIZIA ARYTON</span>
+          </h4>
+        </a>
+        <a
+          class="photo-with-links__link"
+          href="https://www.showroom.pl/p/135191,patrizia-aryton-spodnie-w-kwiatowy-desen"
+          style="left: 17%; top: 58%; width: 25%; height: 7%"
+        >
+          <h4 class="photo-with-links__title" style="left: -33%; top: 5%; width: 20%">
+            spodnie
+            <span class="photo-with-links__span">PATRIZIA ARYTON</span>
+          </h4>
+        </a>
+        <a
+          class="photo-with-links__link"
+          href="https://www.showroom.pl/p/131709,l37-klapki-baffies-rozowe"
+          style="left: 19%; top: 65%; width: 20%; height: 7%"
+        >
+          <h4 class="photo-with-links__title" style="left: -20%; top: 30%; width: 20%">
+            klapki
+            <span class="photo-with-links__span">L37</span>
+          </h4>
+        </a>
+        <a
+          class="photo-with-links__link"
+          href="https://www.showroom.pl/p/102801,momu-t-shirt-frida"
+          style="left: 26%; top: 6%; width: 16%; height: 20%"
+        >
+          <h4 class="photo-with-links__title" style="left: -16%; top: 10%; width: 30%">
+            T-shirt
+            <span class="photo-with-links__span">momu</span>
+          </h4>
+        </a>
+        <a
+          class="photo-with-links__link"
+          href="https://www.showroom.pl/p/133879,q-robert-kupisz-spodnie-crown-cropped-jeans-girl"
+          style="left: 31%; top: 26%; width: 9%; height: 30%"
+        >
+          <h4 class="photo-with-links__title" style="left: -80%; top: 0%; width: 30%">
+            spodnie
+            <span class="photo-with-links__span">Qπш Robert Kupisz</span>
+          </h4>
+        </a>
+        <a
+          class="photo-with-links__link"
+          href="https://www.showroom.pl/p/112919,q-robert-kupisz-plaszcz-desert-ripped-jeans-girl"
+          style="left: 40%; top: 22%; width: 12%; height: 20%"
+        >
+          <h4 class="photo-with-links__title" style="left: 70%; top: -40%; width: 30%">
+            płaszcz
+            <span class="photo-with-links__span">Qπш Robert Kupisz</span>
+          </h4>
+        </a>
+        <a
+          class="photo-with-links__link"
+          href="https://www.showroom.pl/p/125629,l37-kozaki-space-wind-czarny"
+          style="left: 40%; top: 43%; width: 12%; height: 26%"
+        >
+          <h4 class="photo-with-links__title" style="left: 50%; top: 98%; width: 30%">
+            kozaki
+            <span class="photo-with-links__span">L37</span>
+          </h4>
+        </a>
+        <a
+          class="photo-with-links__link"
+          href="https://www.showroom.pl/p/139225,huzior-marynarka-skorzana-abena"
+          style="left: 53%; top: 20%; width: 15%; height: 20%"
+        >
+          <h4 class="photo-with-links__title" style="left: 50%; top: -35%; width: 40%">
+            marynarka
+            <span class="photo-with-links__span">Huzior</span>
+          </h4>
+        </a>
+        <a
+          class="photo-with-links__link"
+          href="https://www.showroom.pl/p/137204,risk-made-in-warsaw-sukienka-maxi-neohipiska-bzy"
+          style="left: 53%; top: 41%; width: 15%; height: 28%"
+        >
+          <h4 class="photo-with-links__title" style="left: 65%; top: 95%; width: 60%">
+            sukienka
+            <span class="photo-with-links__span">RISK made in warsaw</span>
+          </h4>
+        </a>
+        <a
+          class="photo-with-links__link"
+          href="https://www.showroom.pl/p/131755,lily-zeal-top-holy"
+          style="left: 70%; top: 10%; width: 18%; height: 22%"
+        >
+          <h4 class="photo-with-links__title" style="left: 70%; top: -7%; width: 32%">
+            top
+            <span class="photo-with-links__span">LILY ZEAL</span>
+          </h4>
+        </a>
+        <a
+          class="photo-with-links__link"
+          href="https://www.showroom.pl/p/135593,local-heroes-spodnie-dresowe-lh-red-stripe"
+          style="left: 69%; top: 33%; width: 19%; height: 38%"
+        >
+          <h4 class="photo-with-links__title" style="left: 80%; top: 38%; width: 30%">
+            spodnie dresowe
+            <span class="photo-with-links__span">LOCAL HEROES</span>
+          </h4>
+        </a>
+      </section>
+
+      <section class="person">
+        <div class="person__photo person__photo--2" style="margin-right: 8%">
+          <a class="person__link" href="https://www.showroom.pl/tag/dorosli/kobieta/nina">
+            <img class="person__image" src="./images/2.jpg" alt="person image" />
+          </a>
+        </div>
+        <div class="person__photo person__photo--5 person__photo--slower">
+          <a class="person__link" href="https://www.showroom.pl/tag/dorosli/kobieta/nina">
+            <img class="person__image" src="./images/3.jpg" alt="person image" />
+          </a>
+        </div>
+        <div
+          class="person__photo person__photo--3 person__photo--slower"
+          style="margin-left: 25%; margin-top: -25%"
+        >
+          <a class="person__link" href="https://www.showroom.pl/tag/dorosli/kobieta/nina">
+            <img class="person__image" src="./images/4.jpg" alt="person image" />
+          </a>
+        </div>
+        <h3 class="person__name person__name--js">
+          Neen Nah
+          <span class="person__name-span">@neen_nah</span>
+        </h3>
+        <h2 class="person__paragraph" style="left: 0; bottom: 10%; text-align: left">
+          <span class="person__profession">DJka</span>
+          Artystyczna dusza, pasjonatka mody i muzyki, którą możesz spotkać w klubie za DJ-ką. Nina
+          tworzy 1/3 kolektywu International Girls DJs, czyli dziewczyńskiej spółki didżejek.
+        </h2>
+      </section>
+
+      <section class="person">
+        <div
+          class="person__photo person__photo--3"
+          style="margin-right: -8%; margin-top: 15%; z-index: 2"
+        >
+          <a class="person__link" href="https://www.showroom.pl/tag/dorosli/kobieta/harel">
+            <img class="person__image" src="./images/6a.jpg" alt="person image" />
+          </a>
+        </div>
+        <div class="person__photo person__photo--2 person__photo--slower">
+          <a class="person__link" href="https://www.showroom.pl/tag/dorosli/kobieta/harel">
+            <img class="person__image" src="./images/5.webp" alt="person image" />
+          </a>
+        </div>
+        <h3 class="person__name person__name--js">
+          Harel
+          <span class="person__name-span">@harelblog</span>
+        </h3>
+        <h2 class="person__paragraph" style="right: 0; bottom: -18%; text-align: right">
+          <span class="person__profession">Blogerka</span>
+          Niezależna dziennikarka, od 12 lat bacznie obserwuje polską modę. Jej obiektywizm i
+          integralność zyskały jej grono wiernych czytelników i pozwoliły wyrobić niepowtarzalną
+          markę osobistą.
+        </h2>
+      </section>
+
+      <section class="person">
+        <div class="person__photo person__photo--7" style="margin-right: 3%">
+          <a class="person__link" href="https://www.showroom.pl/tag/dorosli/kobieta/kasia">
+            <img class="person__image" src="./images/7.jpg" alt="person image" />
+          </a>
+        </div>
+        <div class="person__photo person__photo--3 person__photo--slower" style="margin-top: 13%">
+          <a class="person__link" href="https://www.showroom.pl/tag/dorosli/kobieta/kasia">
+            <img class="person__image" src="./images/8.jpg" alt="person image" />
+          </a>
+        </div>
+        <h3 class="person__name person__name--js">
+          Kasia Jankowska
+          <span class="person__name-span">@kasiajank</span>
+        </h3>
+        <h2 class="person__paragraph" style="left: 0; bottom: -20%; text-align: left">
+          <span class="person__profession">Mama inspirująca inne mamy</span>
+          Znana w sieci jako Mama Króla Juliana. Kasia przez wiele lat z sukcesami trenowała i
+          uczyła gry w tenisa. Dziś aktywnie działa w sieci - wspiera i inspiruje inne mamy, a
+          dzięki praktycznym wskazówkom i pięknym zdjęciom liczba jej obserwujących ciągle rośnie.
+        </h2>
+      </section>
+
+      <section class="person">
+        <div class="person__photo person__photo--4">
+          <a class="person__link" href="https://www.showroom.pl/tag/dorosli/kobieta/joan">
+            <img class="person__image" src="./images/9.jpg" alt="person image" />
+          </a>
+        </div>
+        <div class="person__photo person__photo--4 person__photo--slower" style="margin-top: 15%">
+          <a class="person__link" href="https://www.showroom.pl/tag/dorosli/kobieta/joan">
+            <img class="person__image" src="./images/10.jpg" alt="person image" />
+          </a>
+        </div>
+        <h3 class="person__name person__name--js">
+          Joan Frankowska
+          <span class="person__name-span">@me_machine</span>
+        </h3>
+        <h2 class="person__paragraph" style="right: 0; bottom: -22%; text-align: right">
+          <span class="person__profession">Crossfiterka</span>
+          Fit dziewczyna, której pasja do sportu odmieniła życie. Asia przez wiele lat zmagała się z
+          brakiem samoakceptacji i zaburzeniami odżywiania, ale miłość do crossfitu pozwoliła jej
+          wyjść z tej walki zwycięsko. Dziś motywuje w sieci innych i przekonuje, że sport to więcej
+          niż zdrowie.
+        </h2>
+      </section>
+
+      <section class="person">
+        <div class="person__photo person__photo--6" style="margin-right: 1.5%">
+          <a class="person__link" href="https://www.showroom.pl/tag/dorosli/kobieta/basia">
+            <img class="person__image" src="./images/11.jpg" alt="person image" />
+          </a>
+        </div>
+        <div class="person__photo person__photo--5 person__photo--slower" style="margin-top: 10%">
+          <a class="person__link" href="https://www.showroom.pl/tag/dorosli/kobieta/basia">
+            <img class="person__image" src="./images/12.jpg" alt="person image" />
+          </a>
+        </div>
+        <h3 class="person__name person__name--js">
+          Basia Welento
+          <span class="person__name-span">@who_killed_bambi</span>
+        </h3>
+        <h2 class="person__paragraph" style="left: 0; bottom: -22%; text-align: left">
+          <span class="person__profession">Założycielka Vegan Ramen Shop</span>
+          Swoją przygodę z biznesem zaczęła od miłości do kultury japońskiej. Kraj Kwitnącej Wiśni
+          zainspirował ją do tego stopnia, że postanowiła przenieść jego kawałek do Warszawy. Dziś
+          zarządza najlepszą w Warszawie restauracją z ramenem i udowadnia, że każda z nas ma w
+          sobie pierwiastek girl boss.
+        </h2>
+      </section>
+
+      <section class="photo-with-links photo-with-links--first-js">
+        <img class="photo-with-links__image" src="./images/13a.jpg" alt="person image" />
+        <a
+          class="photo-with-links__link"
+          href="https://www.showroom.pl/p/133465,messo-marynarka-adele"
+          style="left: 17%; top: 20%; width: 20%; height: 30%"
+        >
+          <h4 class="photo-with-links__title" style="left: -33%; top: 5%; width: 20%">
+            marynarka
+            <span class="photo-with-links__span">messo</span>
+          </h4>
+        </a>
+        <a
+          class="photo-with-links__link"
+          href="https://www.showroom.pl/p/84555,messo-spodnie-loris"
+          style="left: 17%; top: 52%; width: 10%; height: 22%"
+        >
+          <h4 class="photo-with-links__title" style="left: -33%; top: 15%; width: 20%">
+            spodnie
+            <span class="photo-with-links__span">messo</span>
+          </h4>
+        </a>
+        <a
+          class="photo-with-links__link"
+          href="https://www.showroom.pl/p/138700,l37-czolenka-watch-me"
+          style="left: 17%; top: 75%; width: 10%; height: 5%"
+        >
+          <h4 class="photo-with-links__title" style="left: -83%; top: 5%; width: 20%">
+            czółenka
+            <span class="photo-with-links__span">L37</span>
+          </h4>
+        </a>
+        <a
+          class="photo-with-links__link"
+          href="https://www.showroom.pl/p/116299,muses-sukienka-midi-stripes"
+          style="left: 39%; top: 29%; width: 15%; height: 33%"
+        >
+          <h4 class="photo-with-links__title" style="left: 1%; top: -20%; width: 20%">
+            sukienka
+            <span class="photo-with-links__span">MUSES</span>
+          </h4>
+        </a>
+        <a
+          class="photo-with-links__link"
+          href="https://www.showroom.pl/p/133882,local-heroes-top-baby-diamond"
+          style="left: 39%; top: 64%; width: 19%; height: 13%"
+        >
+          <h4 class="photo-with-links__title" style="left: 100%; top: 220%; width: 20%">
+            top
+            <span class="photo-with-links__span">LOCAL HEROES</span>
+          </h4>
+        </a>
+        <a
+          class="photo-with-links__link"
+          href="https://www.showroom.pl/p/135596,local-heroes-kurtka-lh-tape-puff-jacket"
+          style="left: 59%; top: 67%; width: 15%; height: 24%"
+        >
+          <h4 class="photo-with-links__title" style="left: 80%; top: 105%; width: 20%">
+            kurtka
+            <span class="photo-with-links__span">LOCAL HEROES</span>
+          </h4>
+        </a>
+        <a
+          class="photo-with-links__link"
+          href="https://www.showroom.pl/p/132441,mmc-spodnie-proste-welurowe"
+          style="left: 22%; top: 80%; width: 35%; height: 19%"
+        >
+          <h4 class="photo-with-links__title" style="left: -30%; top: 10%; width: 20%">
+            spodnie
+            <span class="photo-with-links__span">MMC</span>
+          </h4>
+        </a>
+        <a
+          class="photo-with-links__link"
+          href="https://www.showroom.pl/p/89234,ueg-kurtka-tyvek-paris-zip-up"
+          style="left: 52%; top: 14%; width: 30%; height: 20%"
+        >
+          <h4 class="photo-with-links__title" style="left: 50%; top: 10%; width: 20%">
+            kurtka
+            <span class="photo-with-links__span">UEG</span>
+          </h4>
+        </a>
+        <a
+          class="photo-with-links__link"
+          href="https://www.showroom.pl/p/131771,lily-zeal-kombinezon-zahara"
+          style="left: 55%; top: 36%; width: 20%; height: 10%"
+        >
+          <h4 class="photo-with-links__title" style="left: 80%; top: -50%; width: 20%">
+            kombinezon
+            <span class="photo-with-links__span">LILY ZEAL</span>
+          </h4>
+        </a>
+        <a
+          class="photo-with-links__link"
+          href="https://www.showroom.pl/p/137037,lebrand-plaszcz-kimono-bany"
+          style="left: 58%; top: 47%; width: 35%; height: 19%"
+        >
+          <h4 class="photo-with-links__title" style="left: 87%; top: 20%; width: 20%">
+            kimono
+            <span class="photo-with-links__span">LeBRAND</span>
+          </h4>
+        </a>
+        <a
+          class="photo-with-links__link"
+          href="https://www.showroom.pl/p/125629,l37-kozaki-space-wind-czarny"
+          style="left: 75%; top: 68%; width: 25%; height: 24%"
+        >
+          <h4 class="photo-with-links__title" style="left: 40%; top: 10%; width: 20%">
+            kozaki
+            <span class="photo-with-links__span">L37</span>
+          </h4>
+        </a>
+      </section>
+
+      <article class="article">
+        <h5 class="article__title">Dołącz do SHOWROOM GIRLS!</h5>
+        <p class="article__paragraph">
+          Jeśli chcesz podzielić się swoją pasją i inspirować inne dziewczyny wrzuć na Instagram
+          zdjęcie w ubraniach z SHOWROOM i oznacz je hashtagiem #shwrmloveswomen. Najciekawsze
+          zdjęcia
+          <br />
+          pokażemy na tej stronie.
+        </p>
+      </article>
+
+      <a class="main__bottom-link" href="https://www.showroom.pl/tag/kobiece-przyjemnosci">
+        zobacz też >
+      </a>
+    </main>
+
     <script type="module" src="/main.js"></script>
   </body>
 </html>
