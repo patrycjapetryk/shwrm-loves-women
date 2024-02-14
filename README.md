@@ -1,7 +1,7 @@
 
 ![shwrm-3](https://github.com/patrycjapetryk/shwrm-loves-women/assets/51820512/ec2ca356-f6f3-4637-9508-6c6d2911201a)
 
-# Landing Page for Showroom
+# Showroom LP
 
 Landing Page for Showroom.pl, an online fashion marketplace. It was built using Vanilla JS and Vite.
 
